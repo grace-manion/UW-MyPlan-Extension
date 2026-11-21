@@ -1,0 +1,13 @@
+{
+  "name": "DawgPlan",
+  "description": "Shows RateMyProfessor ratings next to instructors on UW MyPlan",
+  "version": "0.1.0",
+  "manifest_version": 3,
+  "content_scripts":[
+    {
+        "matches": ["https://myplan.uw.edu/*"],
+        "js": ["content.js"],
+        "css": ["styles.css"]
+    }
+  ]
+}
